@@ -124,21 +124,15 @@
 			var percentage = 0;
 			for(var i = 0;i<8;i++){
 				if(mks[i]!=""){
-					sum += parseInt(mks[i]);
+					sum += parseFloat(mks[i]);
 					no+=1;
 				}
 			}
 			avg=sum/no;
 			if(avg != 0){
-				if(avg < 7){
-					document.getElementById("avg").innerText = avg;
-					document.getElementById("f").innerText = "7.1 * Avg. of CGPA + 12";
-					document.getElementById("per").innerText = 7.1*avg+12;
-				}else{
-					document.getElementById("avg").innerText = avg;
-					document.getElementById("f").innerText = "7.4 * Avg. of CGPA + 12";
-					document.getElementById("per").innerText = 7.4*avg+12;
-				}
+                document.getElementById("avg").innerText = avg;
+                document.getElementById("f").innerText = "7.25 * CGPA + 11";
+                document.getElementById("per").innerText = 7.25*avg+11;
 			}
 		}
     </script>
