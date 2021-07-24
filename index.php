@@ -27,7 +27,7 @@
         </div>
     </nav>
     <header class="masthead bg-primary text-white text-center">
-        <div class="container"><img class="img-fluid d-block mx-auto mb-5" src="assets/img/programmer%20-%20Copy.png">
+        <div class="container"><img class="img-fluid d-block mx-auto mb-5" src="assets/img/icon.png">
             
             <hr class="star-light">
             <h2 class="font-weight-light mb-0">Convert your SGPI to CGPA and Percentage Converter - Mumbai Universiry Engineering<br></h2>
