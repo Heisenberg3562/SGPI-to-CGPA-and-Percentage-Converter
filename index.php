@@ -14,7 +14,7 @@
 
 <body id="page-top">
     <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-secondary text-uppercase" id="mainNav">
-        <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top">Omkar Babrekar</a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" aria-controls="navbarResponsive"
+        <div class="container"><a class="navbar-brand js-scroll-trigger" href="#page-top">Converter</a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" aria-controls="navbarResponsive"
                 aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="nav navbar-nav ml-auto">
@@ -62,10 +62,11 @@
                 </table>
             </div>
         </div><button class="btn btn-primary" type="button" onClick="calc()">Convert</button>
-        <div class="invisible" style="padding-top: 29px;" id="inv">
+        <div class="invisible col col-lg-10" style="padding-top: 29px;" id="inv">
             <p>Avg. of your SGPI to CPGA : <b id="avg">NAN</b></p>
             <p>Applied Formula is : <b id="f"> </b></p>
             <p>Your Percentage is : <b id="per">NAN</b> %</p>
+            <p><a href="/assets/img/conversion-formula.png">Source of this Calculation</a></p>
             <center>
 		<table>
 		<tbody><tr>
