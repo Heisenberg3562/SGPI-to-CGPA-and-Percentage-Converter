@@ -30,7 +30,7 @@
         <div class="container"><img class="img-fluid d-block mx-auto mb-5" src="assets/img/icon.png">
             
             <hr class="star-light">
-            <h2 class="font-weight-light mb-0">Convert your SGPI to CGPA and Percentage Converter - Mumbai Universiry Engineering<br></h2>
+            <h2 class="font-weight-light mb-0">Convert your SGPI to CGPA and Percentage Converter - Mumbai University Engineering<br></h2>
         </div>
     </header>
     <section class="text-center portfolio" id="portfolio">
