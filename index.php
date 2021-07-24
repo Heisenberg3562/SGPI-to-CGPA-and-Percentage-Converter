@@ -62,7 +62,7 @@
                 </table>
             </div>
         </div><button class="btn btn-primary" type="button" onClick="calc()">Convert</button>
-        <div class="invisible col col-lg-10" style="padding-top: 29px;" id="inv">
+        <div class="invisible" style="padding-top: 29px;" id="inv">
             <p>Avg. of your SGPI to CPGA : <b id="avg">NAN</b></p>
             <p>Applied Formula is : <b id="f"> </b></p>
             <p>Your Percentage is : <b id="per">NAN</b> %</p>
