@@ -89,7 +89,7 @@
 		</tbody></table>
 
 		</center>
-		<p align="center">- developed by Omkar Babrekar</p>
+            <p align="center">- developed by <a href="https://www.omkarbabrekar.com/">Omkar Babrekar</a></p>
         </div>
     </section>
     <footer class="footer text-center">
