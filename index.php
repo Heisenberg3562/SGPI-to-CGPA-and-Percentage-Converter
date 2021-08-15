@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/untitled.css">
+    <link rel="stylesheet" href="assets/css/tooltipster.bundle.min.css">
 </head>
 
 <body id="page-top">
@@ -40,55 +41,62 @@
         </div>
         <div class="text-center d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center justify-content-sm-center justify-content-md-center justify-content-lg-center justify-content-xl-center">
             <div class="table-responsive table-bordered text-left" style="width: 313px;">
-                <table class="table table-bordered table-hover table-dark">
-                    <tbody>
-                        <tr>
-                            <td><input type="number" id="s1" style="width: 130px;" step=".01" placeholder="Sem 1" max="10" min="0"></td>
-                            <td><input type="number" id="s2" style="width: 130px;" step=".01" placeholder="Sem 2" max="10" min="0"></td>
-                        </tr>
-                        <tr>
-                            <td><input type="number" id="s3" style="width: 130px;" step=".01" placeholder="Sem 3" max="10" min="0"></td>
-                            <td><input type="number" id="s4" style="width: 130px;" step=".01" min="0" max="10" placeholder="Sem 4"></td>
-                        </tr>
-                        <tr>
-                            <td><input type="number" id="s5" style="width: 130px;" step=".01" min="0" max="10" placeholder="Sem 5"></td>
-                            <td><input type="number" id="s6" style="width: 130px;" step=".01" min="0" max="10" placeholder="Sem 6"></td>
-                        </tr>
-                        <tr>
-                            <td><input type="number" id="s7" style="width: 130px;" step=".01" min="0" max="10" placeholder="Sem 7"></td>
-                            <td><input type="number" id="s8" style="width: 130px;" step=".01" min="0" max="10" placeholder="Sem 8"></td>
-                        </tr>
-                    </tbody>
-                </table>
+                <form id="myform">
+                    <table class="table table-bordered table-hover table-dark">
+                        <tbody>
+                            <tr>
+                                <td><input type="number" id="s1" style="width: 130px;" step=".01" placeholder="Sem 1" max="10" min="0"></td>
+                                <td><input type="number" id="s2" style="width: 130px;" step=".01" placeholder="Sem 2" max="10" min="0"></td>
+                            </tr>
+                            <tr>
+                                <td><input type="number" id="s3" style="width: 130px;" step=".01" placeholder="Sem 3" max="10" min="0"></td>
+                                <td><input type="number" id="s4" style="width: 130px;" step=".01" min="0" max="10" placeholder="Sem 4"></td>
+                            </tr>
+                            <tr>
+                                <td><input type="number" id="s5" style="width: 130px;" step=".01" min="0" max="10" placeholder="Sem 5"></td>
+                                <td><input type="number" id="s6" style="width: 130px;" step=".01" min="0" max="10" placeholder="Sem 6"></td>
+                            </tr>
+                            <tr>
+                                <td><input type="number" id="s7" style="width: 130px;" step=".01" min="0" max="10" placeholder="Sem 7"></td>
+                                <td><input type="number" id="s8" style="width: 130px;" step=".01" min="0" max="10" placeholder="Sem 8"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
             </div>
-        </div><button class="btn btn-primary" type="button" onClick="calc()">Convert</button>
+        </div>
+<!--        <button class="btn btn-primary" type="submit" form="form" onClick="calc()">Convert</button>-->
         <div class="invisible" style="padding-top: 29px;" id="inv">
             <p>Avg. of your SGPI to CPGA : <b id="avg">NAN</b></p>
             <p>Applied Formula is : <b id="f"> </b></p>
             <p>Your Percentage is : <b id="per">NAN</b> %</p>
             <p><a href="/assets/img/conversion-formula.png">Source of this Calculation</a></p>
-            <center>
-		<table>
-		<tbody><tr>
-			<td>
+		    <div class="container">
 				<div class="warning">
-				<p><strong>
-				SGPI means Semester Grade Performance Index. The SGPI is the weighted average of the grade points obtained in all. the courses by the learner during the semester.
-				</strong></p>
+                    <p>
+                        <strong>
+                            SGPI means Semester Grade Performance Index. The SGPI is the weighted average of the grade points obtained in all. the courses by the learner during the semester.
+                        </strong>
+                    </p>
+                    <p>
+                        <strong>
+                            CGPA means Cumulative Grade Point Average. For 4 Years Course : If duration of course is of four years, the degree shall be given to students based upon CGPA considering last four semesters performance.
+                        </strong>
+                    </p>
 
-				<p><strong>				
-				CGPA means Cumulative Grade Point Average. For 4 Years Course : If duration of course is of four years, the degree shall be given to students based upon CGPA considering last four semesters performance.
-				</strong></p>
-
-				<p><strong>
-				CGPA = Sum of SGPIs of all semesters / number of semesters <br>
-				</strong></p> 
+                    <p>
+                        <strong>
+                            CGPA = Sum of SGPIs of all semesters / number of semesters <br>
+                        </strong>
+                    </p>
+                    <p>
+                        <button class="btn"><i class="fa fa-download"></i> Download Chrome Extension</button>
+                    </p>
+                    <p>
+                        <a target="_blank" href="whatsapp://send?text=Hi" class="btn btn-success">Click Here to Share This Tool with Friends on WhatsApp</a>
+                    </p>
 				</div>
-			</td>
-		</tr>
-		</tbody></table>
-
-		</center>
+			</div>
             <p align="center">- developed by <a href="https://www.omkarbabrekar.com/">Omkar Babrekar</a></p>
         </div>
     </section>
@@ -108,39 +116,69 @@
         </div>
     </footer>
     <div class="d-lg-none scroll-to-top position-fixed rounded"><a class="d-block js-scroll-trigger text-center text-white rounded" href="#page-top"><i class="fa fa-chevron-up"></i></a></div>
-    <script>
-		function calc(){
-			var m1 = document.getElementById("s1").value;
-			var m2 = document.getElementById("s2").value;
-			var m3 = document.getElementById("s3").value;
-			var m4 = document.getElementById("s4").value;
-			var m5 = document.getElementById("s5").value;
-			var m6 = document.getElementById("s6").value;
-			var m7 = document.getElementById("s7").value;
-			var m8 = document.getElementById("s8").value;
-			var mks = [m1,m2,m3,m4,m5,m6,m7,m8]
-			var sum=0;
-			var no = 0;
-			var avg = 0;
-			var percentage = 0;
-			for(var i = 0;i<8;i++){
-				if(mks[i]!=""){
-					sum += parseFloat(mks[i]);
-					no+=1;
-				}
-			}
-			avg=sum/no;
-			if(avg != 0){
-                document.getElementById("avg").innerText = avg;
-                document.getElementById("f").innerText = "7.25 * CGPA + 11";
-                document.getElementById("per").innerText = 7.25*avg+11;
-			}
-		}
-    </script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <script src="assets/js/freelancer.js"></script>
+    <script src="assets/js/jquery.validate.min.js"></script>
+    <script src="assets/js/tooltipster.bundle.min.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            // initialize tooltipster on form input elements
+            $('input').tooltipster({
+                trigger: 'custom', // default is 'hover' which is no good here
+                position: 'top',
+                animation: 'grow'
+            });
+            $('#myform').validate({
+                // any other options & rules,
+                errorPlacement: function (error, element) {
+                    var ele = $(element),
+                        err = $(error),
+                        msg = err.text();
+                    if (msg != null && msg !== '') {
+                        ele.tooltipster('content', msg);
+                        ele.tooltipster('open');
+                    }
+                },
+                unhighlight: function(element, errorClass, validClass) {
+                    $(element).removeClass(errorClass).addClass(validClass).tooltipster('close');
+                },
+                success: function (label, element) {
+                    $(element).tooltipster('hide');
+                    calc();
+                }
+            });
+        });
+        function calc(){
+            var m1 = document.getElementById("s1").value;
+            var m2 = document.getElementById("s2").value;
+            var m3 = document.getElementById("s3").value;
+            var m4 = document.getElementById("s4").value;
+            var m5 = document.getElementById("s5").value;
+            var m6 = document.getElementById("s6").value;
+            var m7 = document.getElementById("s7").value;
+            var m8 = document.getElementById("s8").value;
+            var mks = [m1,m2,m3,m4,m5,m6,m7,m8]
+            var sum=0;
+            var no = 0;
+            var avg = 0;
+            var percentage = 0;
+            for(var i = 0;i<8;i++){
+                if(mks[i]!=""){
+                    sum += parseFloat(mks[i]);
+                    no+=1;
+                }
+            }
+            avg=sum/no;
+            if(avg != 0){
+                document.getElementById("avg").innerText = avg;
+                document.getElementById("f").innerText = "7.25 * CGPA + 11";
+                document.getElementById("per").innerText = 7.25*avg+11;
+            }
+        }
+    </script>
 </body>
 
 </html>
