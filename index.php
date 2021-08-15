@@ -89,12 +89,12 @@
                             CGPA = Sum of SGPIs of all semesters / number of semesters <br>
                         </strong>
                     </p>
-                    <p>
-                        <button class="btn"><i class="fa fa-download"></i> Download Chrome Extension</button>
-                    </p>
-                    <p>
-                        <a target="_blank" href="whatsapp://send?text=Hi" class="btn btn-success">Click Here to Share This Tool with Friends on WhatsApp</a>
-                    </p>
+<!--                    <p>-->
+<!--                        <button class="btn"><i class="fa fa-download"></i> Download Chrome Extension</button>-->
+<!--                    </p>-->
+<!--                    <p>-->
+<!--                        <a target="_blank" href="whatsapp://send?text=Hi" class="btn btn-success">Click Here to Share This Tool with Friends on WhatsApp</a>-->
+<!--                    </p>-->
 				</div>
 			</div>
             <p align="center">- developed by <a href="https://www.omkarbabrekar.com/">Omkar Babrekar</a></p>
