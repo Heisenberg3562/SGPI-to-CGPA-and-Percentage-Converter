@@ -89,9 +89,9 @@
                             CGPA = Sum of SGPIs of all semesters / number of semesters <br>
                         </strong>
                     </p>
-<!--                    <p>-->
-<!--                        <button class="btn"><i class="fa fa-download"></i> Download Chrome Extension</button>-->
-<!--                    </p>-->
+                    <p>
+                        <a class="btn" href="https://chrome.google.com/webstore/detail/sgpi-to-cgpa-converter-mu/oihooekkpbbaknmffegikdnmbjfafbfk"><i class="fa fa-download"></i> Download Chrome Extension</a>
+                    </p>
 <!--                    <p>-->
 <!--                        <a target="_blank" href="whatsapp://send?text=Hi" class="btn btn-success">Click Here to Share This Tool with Friends on WhatsApp</a>-->
 <!--                    </p>-->
@@ -125,9 +125,8 @@
     <script>
         $(document).ready(function () {
 
-            // initialize tooltipster on form input elements
             $('input').tooltipster({
-                trigger: 'custom', // default is 'hover' which is no good here
+                trigger: 'custom',
                 position: 'top',
                 animation: 'grow'
             });
