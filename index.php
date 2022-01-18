@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/untitled.css">
     <link rel="stylesheet" href="assets/css/tooltipster.bundle.min.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9975177832153079"
+            crossorigin="anonymous"></script>
 </head>
 
 <body id="page-top">
