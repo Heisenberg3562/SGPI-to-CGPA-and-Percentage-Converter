@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="assets/css/tooltipster.bundle.min.css">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9975177832153079"
             crossorigin="anonymous"></script>
+    <meta name="propeller" content="d9c30d74f98b00f13601dfaa580ae930">
 </head>
 
 <body id="page-top">
