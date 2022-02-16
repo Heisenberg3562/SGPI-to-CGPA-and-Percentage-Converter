@@ -70,7 +70,7 @@
         </div>
 <!--        <button class="btn btn-primary" type="submit" form="form" onClick="calc()">Convert</button>-->
         <div class="invisible" style="padding-top: 29px;" id="inv">
-            <p>Avg. of your SGPI to CPGA : <b id="avg">NAN</b></p>
+            <p>Avg. of your SGPI to CGPA : <b id="avg">NAN</b></p>
             <p>Applied Formula is : <b id="f"> </b></p>
             <p>Your Percentage is : <b id="per">NAN</b> %</p>
             <p><a href="/assets/img/conversion-formula.png">Source of this Calculation</a></p>
